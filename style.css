@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.card {
+    background-color: steelblue;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+
+}
